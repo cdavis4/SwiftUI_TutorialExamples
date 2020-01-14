@@ -9,10 +9,6 @@
 import SwiftUI
 import Combine
 
-struct Response: Codable {
-    var results: [BoatResponseModel]
-}
-
 struct BoatResponseModel: Codable {
     var name: String
     var id: Int
