@@ -1,23 +1,22 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
-project 'UserProfileFirebaseEX.xcodeproj'
+platform :ios, '11.0'
 
-target 'UserProfileFirebaseEX' do
+target 'ProfileFirebaseX' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for UserProfileFirebaseEX
+  # Pods for ProfileFirebaseX
   pod 'Firebase'
   pod 'Firebase/Auth'
   pod 'Firebase/Analytics'
   pod 'Firebase/Database'
-
-  target 'UserProfileFirebaseEXTests' do
+  
+  target 'ProfileFirebaseXTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'UserProfileFirebaseEXUITests' do
+  target 'ProfileFirebaseXUITests' do
     # Pods for testing
   end
 
