@@ -12,8 +12,7 @@ import SwiftUI
 struct PersonalityQuizView: View {
     @ObservedObject var personalityquiz = PersonaltyQuiz()
     @State var showingResults = false
-      @State var isDone = false
-    @State private var navigateMainView = false
+    @State var isDone = false
     @State var length: Float = 3
 
     var body: some View {
